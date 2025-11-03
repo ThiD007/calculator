@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Moderna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="toggle-tema" title="Alternar tema">🌙</button>
+
+  <div class="calculadora">
+    <div class="display-container">
+      <div id="operacao"></div>
+      <input type="text" id="display" disabled>
+    </div>
+
+    <div class="botoes">
+      <button class="btn operador destaque">C</button>
+      <button class="btn operador">±</button>
+      <button class="btn operador">%</button>
+      <button class="btn operador">/</button>
+
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operador">*</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operador">-</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operador">+</button>
+
+      <button class="btn zero">0</button>
+      <button class="btn">.</button>
+      <button class="btn igual">=</button>
+    </div>
+  </div>
+
+  <audio id="click-som" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_08a2cc3a7b.mp3?filename=click-button-140881.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
